@@ -32,7 +32,7 @@
         "tags": [
           "Package Tracking"
         ],
-        "description": "Gets the status of a package",
+        "description": "Gets the status of a package to share",
         "operationId": "get package status",
         "parameters": [
           {
