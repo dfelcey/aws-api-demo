@@ -1,12 +1,12 @@
 #%Catalog Descriptor 1.0
 triggerConditions: 
   branches:
-    - master
+    - develop
 
 versionStrategyConditions:
   minorIncrease:
     branches:
-      - master
+      - develop
 
 contact:
   name: Dave Felcey
