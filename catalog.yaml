@@ -2,15 +2,11 @@
 triggerConditions: 
   branches:
     - master
-    - develop
-  tags:
-    - candidate/(.*)
 
 versionStrategyConditions:
   minorIncrease:
     branches:
       - master
-      - develop
 
 contact:
   name: Dave Felcey
