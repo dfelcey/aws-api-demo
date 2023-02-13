@@ -3,7 +3,7 @@
   "info": {
     "version": "1.0.2",
     "title": "PackageTracker API",
-    "description": "An API to track the ongoing status of a package to see",
+    "description": "An API to track the ongoing status of a package for customers",
     "license": {
       "name": "Apache 2.0",
     "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
@@ -26,12 +26,6 @@
       "description": "Get current package status"
     }
   ],
-  "security" :
-  [
-    { 
-      "BasicAuth": []
-    }
-  ],
   "paths": {
     "/status/{id}": {
       "get": {
@@ -39,7 +33,6 @@
           "Package Tracking"
         ],
         "description": "Gets the status of a package",
-        "operationId": "get package status",
         "parameters": [
           {
             "name": "id",
