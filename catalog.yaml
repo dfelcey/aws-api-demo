@@ -2,8 +2,6 @@
 triggerConditions: 
   branches:
     - master
-  tags:
-    - candidate/(.*)
 
 versionStrategyConditions:
   minorIncrease:
