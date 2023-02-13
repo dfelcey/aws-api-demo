@@ -2,7 +2,6 @@
 triggerConditions: 
   branches:
     - master
-    - develop
   tags:
     - candidate/(.*)
 
@@ -10,7 +9,6 @@ versionStrategyConditions:
   minorIncrease:
     branches:
       - master
-      - develop
 
 contact:
   name: Dave Felcey
@@ -26,13 +24,8 @@ projects:
       email: dave.felcey@mulesoft.com
     documentation:
       Additional Information: Additional_Information.md
+      Home: Home.md
     categories:
       Tier:
         - xapi
-    documentation:
-      Additional Information: Additional_Information.md
-      Home: Home.md
-contact:
-  name: "Dave Felcey"
-  email: "dave.felcey@mulesoft.com"
 
